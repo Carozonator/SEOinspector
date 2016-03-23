@@ -1,5 +1,5 @@
-$(document).ready(function(){
-    var homePage = "http://staging.hairgrowthcenters.com/";
+$.fn.seoInspector = function ( currentUrl ){
+    var homePage = currentUrl;
     var visitedPages = Array();
     searchLinks(homePage);
     function searchLinks( url ){
